@@ -1,0 +1,18 @@
+# Ignorar pastas de dados
+data/
+.*-venv/
+.ipynb_checkpoints/
+
+# Ignorar arquivos de dados específicos por extensão
+*.jpg
+*.jpeg
+*.png
+*.json
+
+# Ignorar arquivos de ambiente com senhas e chaves
+.env
+
+# Ignorar pastas de ambiente virtual do Python
+venv/
+.venv/
+__pycache__/
